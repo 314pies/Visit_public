@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca3580049d416ce4ab400ed39ea049d6, type: 3}
+  m_Name: Booths
+  m_EditorClassIdentifier: 
+  BoothsRaw:
+  - {fileID: 21300000, guid: ee35428102128b140805af8a91baa178, type: 3}
+  - {fileID: 21300000, guid: a2dbc9c483a40d3459e96e1dbe376afc, type: 3}
+  - {fileID: 21300000, guid: 60f87921c2c037e4fbe11e276bf0595c, type: 3}
+  - {fileID: 21300000, guid: b0d85857fb6d6f44abcc3b603b9e8b68, type: 3}
+  - {fileID: 21300000, guid: cd6959bd1ad95e7419add7ab0c4c1bc9, type: 3}
+  - {fileID: 21300000, guid: 1993e0b22dabb414094ed3af21e9a25d, type: 3}
+  - {fileID: 21300000, guid: d8af619200928ba4ca48adfa9a0064fc, type: 3}
+  - {fileID: 21300000, guid: fcdd298375327ae46a044eceb0e2d3b5, type: 3}
+  - {fileID: 21300000, guid: cf10b484b3df547418dc4ac07ac3cc93, type: 3}
+  - {fileID: 21300000, guid: 7108069c786dd2f478ee11a1b93a467d, type: 3}
+  - {fileID: 21300000, guid: 38b97ce8058415d4993ce794b050c83e, type: 3}
+  - {fileID: 21300000, guid: 8c68498fd32fafa4e8ed157788c728d2, type: 3}
+  - {fileID: 21300000, guid: 250c3b7da62f83a4f8f605f7cce9997f, type: 3}
+  - {fileID: 21300000, guid: a575d7aff34ae114b8d9457155156c53, type: 3}
+  - {fileID: 21300000, guid: 3cbe384f066e64f4b958083dceb7bb71, type: 3}
+  - {fileID: 21300000, guid: 9e539286d94304e44aee01d0757374c2, type: 3}
+  - {fileID: 21300000, guid: 6f93fc83e9f329740b8704e5f54d647f, type: 3}
+  - {fileID: 21300000, guid: 843e93d50f0d89b4ea7ad102a874ba01, type: 3}
+  - {fileID: 21300000, guid: ea1b4a241e228b44b8210edd454f3cae, type: 3}
+  - {fileID: 21300000, guid: a3a1ac79c1e6bf04ea4f2c3bed071031, type: 3}
+  - {fileID: 21300000, guid: 73c67c425a810084f9b7129d4bc4ffb2, type: 3}
+  - {fileID: 21300000, guid: afae0b8978cd7504c92dfaa09ea18775, type: 3}
+  - {fileID: 21300000, guid: e16acab65ee53d3458d3f04547056913, type: 3}
+  - {fileID: 21300000, guid: 29b0f5f760a66694a8a7bec26566ff1c, type: 3}
+  - {fileID: 21300000, guid: a2a459d264df3ae4dbfe84da144fcbb0, type: 3}
+  Booths:
+  - name: Kyoto
+    logo: {fileID: 21300000, guid: ee35428102128b140805af8a91baa178, type: 3}
+    Location: 5J#15
+    Popularity: 98
+  - name: Attack On Titan
+    logo: {fileID: 21300000, guid: a2dbc9c483a40d3459e96e1dbe376afc, type: 3}
+    Location: 6R#12
+    Popularity: 81
+  - name: Naruto
+    logo: {fileID: 21300000, guid: cd6959bd1ad95e7419add7ab0c4c1bc9, type: 3}
+    Location: 4P#31
+    Popularity: 97
+  - name: Cafe Goods
+    logo: {fileID: 21300000, guid: b0d85857fb6d6f44abcc3b603b9e8b68, type: 3}
+    Location: 5N#34
+    Popularity: 93
+  - name: Blizzard
+    logo: {fileID: 21300000, guid: 60f87921c2c037e4fbe11e276bf0595c, type: 3}
+    Location: 4K#11
+    Popularity: 80
+  - name: One Piece
+    logo: {fileID: 21300000, guid: 1993e0b22dabb414094ed3af21e9a25d, type: 3}
+    Location: 5P#36
+    Popularity: 89
+  - name: Hunter X Hunter
+    logo: {fileID: 21300000, guid: d8af619200928ba4ca48adfa9a0064fc, type: 3}
+    Location: 2C#40
+    Popularity: 81
+  - name: One Punch Man
+    logo: {fileID: 21300000, guid: fcdd298375327ae46a044eceb0e2d3b5, type: 3}
+    Location: 6A#12
+    Popularity: 82
+  - name: Code Geass
+    logo: {fileID: 21300000, guid: cf10b484b3df547418dc4ac07ac3cc93, type: 3}
+    Location: 4I#42
+    Popularity: 88
+  - name: 'Death Note '
+    logo: {fileID: 21300000, guid: 7108069c786dd2f478ee11a1b93a467d, type: 3}
+    Location: 6M#49
+    Popularity: 75
+  - name: Demon Slayer
+    logo: {fileID: 21300000, guid: 38b97ce8058415d4993ce794b050c83e, type: 3}
+    Location: 6D#27
+    Popularity: 77
+  - name: Earth-Moon System
+    logo: {fileID: 21300000, guid: 8c68498fd32fafa4e8ed157788c728d2, type: 3}
+    Location: 3Z#10
+    Popularity: 66
+  - name: Dragon Ball Z
+    logo: {fileID: 21300000, guid: 250c3b7da62f83a4f8f605f7cce9997f, type: 3}
+    Location: 5S#5
+    Popularity: 90
+  - name: Cowboy Bebop
+    logo: {fileID: 21300000, guid: a575d7aff34ae114b8d9457155156c53, type: 3}
+    Location: 6M#32
+    Popularity: 96
+  - name: EpicGame
+    logo: {fileID: 21300000, guid: 3cbe384f066e64f4b958083dceb7bb71, type: 3}
+    Location: 3E#48
+    Popularity: 85
+  - name: Alice
+    logo: {fileID: 21300000, guid: 9e539286d94304e44aee01d0757374c2, type: 3}
+    Location: 2G#24
+    Popularity: 83
+  - name: EpicWork
+    logo: {fileID: 21300000, guid: 6f93fc83e9f329740b8704e5f54d647f, type: 3}
+    Location: 2C#21
+    Popularity: 65
+  - name: Your Lie in Aprils
+    logo: {fileID: 21300000, guid: 843e93d50f0d89b4ea7ad102a874ba01, type: 3}
+    Location: 5L#14
+    Popularity: 65
+  - name: Fullmetal Alchemist
+    logo: {fileID: 21300000, guid: ea1b4a241e228b44b8210edd454f3cae, type: 3}
+    Location: 4K#43
+    Popularity: 71
+  - name: Google
+    logo: {fileID: 21300000, guid: a3a1ac79c1e6bf04ea4f2c3bed071031, type: 3}
+    Location: 4S#26
+    Popularity: 63
+  - name: Haikyuu
+    logo: {fileID: 21300000, guid: 73c67c425a810084f9b7129d4bc4ffb2, type: 3}
+    Location: 1C#45
+    Popularity: 75
+  - name: Jojo Adventure
+    logo: {fileID: 21300000, guid: afae0b8978cd7504c92dfaa09ea18775, type: 3}
+    Location: 2J#39
+    Popularity: 81
+  - name: Meng Yan
+    logo: {fileID: 21300000, guid: e16acab65ee53d3458d3f04547056913, type: 3}
+    Location: 5W#45
+    Popularity: 97
+  - name: Steins Gate
+    logo: {fileID: 21300000, guid: 29b0f5f760a66694a8a7bec26566ff1c, type: 3}
+    Location: 5B#43
+    Popularity: 67
+  - name: Yanyu Kiutai
+    logo: {fileID: 21300000, guid: a2a459d264df3ae4dbfe84da144fcbb0, type: 3}
+    Location: 1K#26
+    Popularity: 95
